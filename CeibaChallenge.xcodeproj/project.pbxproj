@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		848DCF4728146B54000295DD /* CeibaChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCF4628146B54000295DD /* CeibaChallengeApp.swift */; };
+		848DCF4928146B54000295DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCF4828146B54000295DD /* ContentView.swift */; };
+		848DCF4B28146B58000295DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848DCF4A28146B58000295DD /* Assets.xcassets */; };
+		848DCF4E28146B58000295DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 848DCF4D28146B58000295DD /* Preview Assets.xcassets */; };
+		848DCF5028146B58000295DD /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCF4F28146B58000295DD /* Persistence.swift */; };
+		848DCF5328146B58000295DD /* CeibaChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 848DCF5128146B58000295DD /* CeibaChallenge.xcdatamodeld */; };
+		848DCF5D28146B59000295DD /* CeibaChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCF5C28146B59000295DD /* CeibaChallengeTests.swift */; };
+		848DCF6728146B59000295DD /* CeibaChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCF6628146B59000295DD /* CeibaChallengeUITests.swift */; };
+		848DCF6928146B59000295DD /* CeibaChallengeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848DCF6828146B59000295DD /* CeibaChallengeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		848DCF5928146B59000295DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848DCF3B28146B54000295DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848DCF4228146B54000295DD;
+			remoteInfo = CeibaChallenge;
+		};
+		848DCF6328146B59000295DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 848DCF3B28146B54000295DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848DCF4228146B54000295DD;
+			remoteInfo = CeibaChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		848DCF4328146B54000295DD /* CeibaChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CeibaChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		848DCF4628146B54000295DD /* CeibaChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaChallengeApp.swift; sourceTree = "<group>"; };
+		848DCF4828146B54000295DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		848DCF4A28146B58000295DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		848DCF4D28146B58000295DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		848DCF4F28146B58000295DD /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		848DCF5228146B58000295DD /* CeibaChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CeibaChallenge.xcdatamodel; sourceTree = "<group>"; };
+		848DCF5828146B59000295DD /* CeibaChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeibaChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848DCF5C28146B59000295DD /* CeibaChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaChallengeTests.swift; sourceTree = "<group>"; };
+		848DCF6228146B59000295DD /* CeibaChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CeibaChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		848DCF6628146B59000295DD /* CeibaChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaChallengeUITests.swift; sourceTree = "<group>"; };
+		848DCF6828146B59000295DD /* CeibaChallengeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeibaChallengeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		848DCF4028146B54000295DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848DCF5528146B59000295DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848DCF5F28146B59000295DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		848DCF3A28146B54000295DD = {
+			isa = PBXGroup;
+			children = (
+				848DCF4528146B54000295DD /* CeibaChallenge */,
+				848DCF5B28146B59000295DD /* CeibaChallengeTests */,
+				848DCF6528146B59000295DD /* CeibaChallengeUITests */,
+				848DCF4428146B54000295DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		848DCF4428146B54000295DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				848DCF4328146B54000295DD /* CeibaChallenge.app */,
+				848DCF5828146B59000295DD /* CeibaChallengeTests.xctest */,
+				848DCF6228146B59000295DD /* CeibaChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		848DCF4528146B54000295DD /* CeibaChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				848DCF4628146B54000295DD /* CeibaChallengeApp.swift */,
+				848DCF4828146B54000295DD /* ContentView.swift */,
+				848DCF4A28146B58000295DD /* Assets.xcassets */,
+				848DCF4F28146B58000295DD /* Persistence.swift */,
+				848DCF5128146B58000295DD /* CeibaChallenge.xcdatamodeld */,
+				848DCF4C28146B58000295DD /* Preview Content */,
+			);
+			path = CeibaChallenge;
+			sourceTree = "<group>";
+		};
+		848DCF4C28146B58000295DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				848DCF4D28146B58000295DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		848DCF5B28146B59000295DD /* CeibaChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				848DCF5C28146B59000295DD /* CeibaChallengeTests.swift */,
+			);
+			path = CeibaChallengeTests;
+			sourceTree = "<group>";
+		};
+		848DCF6528146B59000295DD /* CeibaChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				848DCF6628146B59000295DD /* CeibaChallengeUITests.swift */,
+				848DCF6828146B59000295DD /* CeibaChallengeUITestsLaunchTests.swift */,
+			);
+			path = CeibaChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		848DCF4228146B54000295DD /* CeibaChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848DCF6C28146B59000295DD /* Build configuration list for PBXNativeTarget "CeibaChallenge" */;
+			buildPhases = (
+				848DCF3F28146B54000295DD /* Sources */,
+				848DCF4028146B54000295DD /* Frameworks */,
+				848DCF4128146B54000295DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CeibaChallenge;
+			productName = CeibaChallenge;
+			productReference = 848DCF4328146B54000295DD /* CeibaChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		848DCF5728146B59000295DD /* CeibaChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848DCF6F28146B59000295DD /* Build configuration list for PBXNativeTarget "CeibaChallengeTests" */;
+			buildPhases = (
+				848DCF5428146B59000295DD /* Sources */,
+				848DCF5528146B59000295DD /* Frameworks */,
+				848DCF5628146B59000295DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848DCF5A28146B59000295DD /* PBXTargetDependency */,
+			);
+			name = CeibaChallengeTests;
+			productName = CeibaChallengeTests;
+			productReference = 848DCF5828146B59000295DD /* CeibaChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		848DCF6128146B59000295DD /* CeibaChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 848DCF7228146B59000295DD /* Build configuration list for PBXNativeTarget "CeibaChallengeUITests" */;
+			buildPhases = (
+				848DCF5E28146B59000295DD /* Sources */,
+				848DCF5F28146B59000295DD /* Frameworks */,
+				848DCF6028146B59000295DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				848DCF6428146B59000295DD /* PBXTargetDependency */,
+			);
+			name = CeibaChallengeUITests;
+			productName = CeibaChallengeUITests;
+			productReference = 848DCF6228146B59000295DD /* CeibaChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		848DCF3B28146B54000295DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					848DCF4228146B54000295DD = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					848DCF5728146B59000295DD = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 848DCF4228146B54000295DD;
+					};
+					848DCF6128146B59000295DD = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 848DCF4228146B54000295DD;
+					};
+				};
+			};
+			buildConfigurationList = 848DCF3E28146B54000295DD /* Build configuration list for PBXProject "CeibaChallenge" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 848DCF3A28146B54000295DD;
+			productRefGroup = 848DCF4428146B54000295DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848DCF4228146B54000295DD /* CeibaChallenge */,
+				848DCF5728146B59000295DD /* CeibaChallengeTests */,
+				848DCF6128146B59000295DD /* CeibaChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		848DCF4128146B54000295DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848DCF4E28146B58000295DD /* Preview Assets.xcassets in Resources */,
+				848DCF4B28146B58000295DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848DCF5628146B59000295DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848DCF6028146B59000295DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		848DCF3F28146B54000295DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848DCF5028146B58000295DD /* Persistence.swift in Sources */,
+				848DCF4928146B54000295DD /* ContentView.swift in Sources */,
+				848DCF5328146B58000295DD /* CeibaChallenge.xcdatamodeld in Sources */,
+				848DCF4728146B54000295DD /* CeibaChallengeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848DCF5428146B59000295DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848DCF5D28146B59000295DD /* CeibaChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		848DCF5E28146B59000295DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848DCF6728146B59000295DD /* CeibaChallengeUITests.swift in Sources */,
+				848DCF6928146B59000295DD /* CeibaChallengeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		848DCF5A28146B59000295DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848DCF4228146B54000295DD /* CeibaChallenge */;
+			targetProxy = 848DCF5928146B59000295DD /* PBXContainerItemProxy */;
+		};
+		848DCF6428146B59000295DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 848DCF4228146B54000295DD /* CeibaChallenge */;
+			targetProxy = 848DCF6328146B59000295DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		848DCF6A28146B59000295DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		848DCF6B28146B59000295DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		848DCF6D28146B59000295DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CeibaChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9VN8QG2L3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CeibaChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		848DCF6E28146B59000295DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CeibaChallenge/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9VN8QG2L3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CeibaChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		848DCF7028146B59000295DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9VN8QG2L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CeibaChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CeibaChallenge.app/CeibaChallenge";
+			};
+			name = Debug;
+		};
+		848DCF7128146B59000295DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9VN8QG2L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CeibaChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CeibaChallenge.app/CeibaChallenge";
+			};
+			name = Release;
+		};
+		848DCF7328146B59000295DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9VN8QG2L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CeibaChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CeibaChallenge;
+			};
+			name = Debug;
+		};
+		848DCF7428146B59000295DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9VN8QG2L3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CeibaChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CeibaChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		848DCF3E28146B54000295DD /* Build configuration list for PBXProject "CeibaChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848DCF6A28146B59000295DD /* Debug */,
+				848DCF6B28146B59000295DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848DCF6C28146B59000295DD /* Build configuration list for PBXNativeTarget "CeibaChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848DCF6D28146B59000295DD /* Debug */,
+				848DCF6E28146B59000295DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848DCF6F28146B59000295DD /* Build configuration list for PBXNativeTarget "CeibaChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848DCF7028146B59000295DD /* Debug */,
+				848DCF7128146B59000295DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		848DCF7228146B59000295DD /* Build configuration list for PBXNativeTarget "CeibaChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				848DCF7328146B59000295DD /* Debug */,
+				848DCF7428146B59000295DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		848DCF5128146B58000295DD /* CeibaChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				848DCF5228146B58000295DD /* CeibaChallenge.xcdatamodel */,
+			);
+			currentVersion = 848DCF5228146B58000295DD /* CeibaChallenge.xcdatamodel */;
+			path = CeibaChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 848DCF3B28146B54000295DD /* Project object */;
+}
