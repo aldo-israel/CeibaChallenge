@@ -6,31 +6,56 @@
 //
 
 import XCTest
+@testable import Alamofire
 @testable import CeibaChallenge
 
 class CeibaChallengeTests: XCTestCase {
-
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    private var networkManager: NetworkManager!
+    
+    override func setUp() {
+        super.setUp()
+        
+        let manager: Session = {
+            let configuration: URLSessionConfiguration = {
+                let configuration = URLSessionConfiguration.default
+                configuration.protocolClasses = [MockProtocol.self]
+                return configuration
+            }()
+            
+            return Session(configuration: configuration)
+        }()
+        networkManager = NetworkManager(manager: manager)
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    
+    func testUsersEndpoint() {
+        let expectation = XCTestExpectation(description: "Performs a request to /users endpoint")
+            
+        networkManager.getUsers() { (result) in
+            switch result {
+            case.success(let users):
+                XCTAssertEqual(users.first?.id, 1)
+                expectation.fulfill()
+            case .failure(let error):
+                XCTAssertEqual(!error.localizedDescription.isEmpty, true)
+                expectation.fulfill()
+            }
         }
     }
-
+    
+    func testPostsByUserEndpoint() {
+        let expectation = XCTestExpectation(description: "Performs a request to /posts endpoint")
+            
+        networkManager.getPostsBy(userId: 1) { (result) in
+            switch result {
+            case.success(let posts):
+                XCTAssertEqual(posts.first?.id, 1)
+                expectation.fulfill()
+            case .failure(let error):
+                XCTAssertEqual(!error.localizedDescription.isEmpty, true)
+                expectation.fulfill()
+            }
+        }
+    }
 }

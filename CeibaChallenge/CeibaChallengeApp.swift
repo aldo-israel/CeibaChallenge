@@ -13,7 +13,7 @@ struct CeibaChallengeApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UsersView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
